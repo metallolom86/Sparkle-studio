@@ -1,6 +1,7 @@
 export default {
-  name: "sFzTZbSuM8coEwygeUYes",
-  title: "Series",
+  name: "topic",
+  title: "Topic",
+  description: "Topics under which stories can be categorized.",
   type: "document",
   preview: {
     select: {
@@ -10,13 +11,13 @@ export default {
   fields: [
     {
       name: "title",
-      title: "Series Title",
+      title: "Topic Title",
       validation: Rule => Rule.required(),
-      type: "text"
+      type: "string"
     },
     {
       name: "slug",
-      title: "Series Slug",
+      title: "Topic Slug",
       validation: Rule => Rule.required(),
       type: "slug",
       options: {
@@ -25,28 +26,14 @@ export default {
     },
     {
       name: "logo",
-      title: "Series Image",
-      type: "image"
-    },
-    {
-      name: "logoBig",
-      title: "Series Featured Image",
+      title: "Thumbnail Image",
+      validation: Rule => Rule.required(),
       type: "image"
     },
     {
       name: "description",
-      title: "Series Description",
+      title: "Description",
       type: "text"
-    },
-    {
-      name: "age",
-      title: "Series Age",
-      type: "reference",
-      to: [
-        {
-          type: "age"
-        }
-      ]
     }
   ]
 };

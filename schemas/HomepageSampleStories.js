@@ -21,13 +21,13 @@ export default {
       type: 'reference',
       to: [
         {
-          type: '5GPHYPgQaQYouKOwM8Weus'
+          type: 'collection'
         },
         {
           type: 'sFzTZbSuM8coEwygeUYes'
         },
         {
-          type: '5Iq0WgjphSei2ywoG6QA4e'
+          type: 'topic'
         }
       ]
     },
@@ -43,7 +43,7 @@ export default {
       type: 'reference',
       to: [
         {
-          type: '42NU4G3ny02SUCEmMSamMS'
+          type: 'story'
         }
       ]
     },
@@ -54,13 +54,13 @@ export default {
       type: 'reference',
       to: [
         {
-          type: '5GPHYPgQaQYouKOwM8Weus'
+          type: 'collection'
         },
         {
           type: 'sFzTZbSuM8coEwygeUYes'
         },
         {
-          type: '5Iq0WgjphSei2ywoG6QA4e'
+          type: 'topic'
         }
       ]
     },
@@ -76,7 +76,7 @@ export default {
       type: 'reference',
       to: [
         {
-          type: '42NU4G3ny02SUCEmMSamMS'
+          type: 'story'
         }
       ]
     },
@@ -87,13 +87,13 @@ export default {
       type: 'reference',
       to: [
         {
-          type: '5GPHYPgQaQYouKOwM8Weus'
+          type: 'collection'
         },
         {
           type: 'sFzTZbSuM8coEwygeUYes'
         },
         {
-          type: '5Iq0WgjphSei2ywoG6QA4e'
+          type: 'topic'
         }
       ]
     },
@@ -109,7 +109,7 @@ export default {
       type: 'reference',
       to: [
         {
-          type: '42NU4G3ny02SUCEmMSamMS'
+          type: 'story'
         }
       ]
     },
@@ -120,13 +120,13 @@ export default {
       type: 'reference',
       to: [
         {
-          type: '5GPHYPgQaQYouKOwM8Weus'
+          type: 'collection'
         },
         {
           type: 'sFzTZbSuM8coEwygeUYes'
         },
         {
-          type: '5Iq0WgjphSei2ywoG6QA4e'
+          type: 'topic'
         }
       ]
     },
@@ -142,7 +142,7 @@ export default {
       type: 'reference',
       to: [
         {
-          type: '42NU4G3ny02SUCEmMSamMS'
+          type: 'story'
         }
       ]
     }

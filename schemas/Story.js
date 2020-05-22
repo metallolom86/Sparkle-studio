@@ -1,5 +1,5 @@
 export default {
-  name: '42NU4G3ny02SUCEmMSamMS',
+  name: 'story',
   title: 'Story',
   description: 'The entire library is here.',
   type: 'document',
@@ -85,7 +85,7 @@ export default {
       type: 'reference',
       to: [
         {
-          type: '2C4Vf04Sn6yM4iSKAEEIcW'
+          type: 'age'
         }
       ]
     },
@@ -98,7 +98,7 @@ export default {
           type: 'reference',
           to: [
             {
-              type: '3E6bdvlfmMi2M4gmKuOG2e'
+              type: 'characters'
             }
           ]
         }
@@ -113,7 +113,7 @@ export default {
           type: 'reference',
           to: [
             {
-              type: '5Iq0WgjphSei2ywoG6QA4e'
+              type: 'topic'
             }
           ]
         }
@@ -128,7 +128,7 @@ export default {
           type: 'reference',
           to: [
             {
-              type: '5GPHYPgQaQYouKOwM8Weus'
+              type: 'collection'
             }
           ]
         }
@@ -143,7 +143,7 @@ export default {
           type: 'reference',
           to: [
             {
-              type: '10gqnUyH7MY6aUAGwYMWqQ'
+              type: 'blogPost'
             }
           ]
         }
@@ -155,7 +155,7 @@ export default {
       type: 'reference',
       to: [
         {
-          type: '10gqnUyH7MY6aUAGwYMWqQ'
+          type: 'blogPost'
         }
       ]
     },
@@ -168,7 +168,7 @@ export default {
           type: 'reference',
           to: [
             {
-              type: '6CN2bBuW2WQyaG4wwgwcwW'
+              type: 'contributor'
             }
           ]
         }
@@ -180,7 +180,7 @@ export default {
       type: 'reference',
       to: [
         {
-          type: '4mhNr6LwSA0cw0suaiuACC'
+          type: 'season'
         }
       ]
     },

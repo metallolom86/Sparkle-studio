@@ -31,7 +31,7 @@ export default {
           type: 'reference',
           to: [
             {
-              type: '4gwUzKU8XYi8mMoUayQKO6'
+              type: 'staff'
             }
           ]
         }
@@ -47,7 +47,7 @@ export default {
           type: 'reference',
           to: [
             {
-              type: '4gwUzKU8XYi8mMoUayQKO6'
+              type: 'staff'
             }
           ]
         }

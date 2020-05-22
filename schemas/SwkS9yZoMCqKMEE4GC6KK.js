@@ -1,5 +1,5 @@
 export default {
-  name: 'SwkS9yZoMCqKMEE4GC6KK',
+  name: 'appDownloadBanner',
   title: 'App Download Banner',
   type: 'document',
   preview: {

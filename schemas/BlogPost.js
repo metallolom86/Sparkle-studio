@@ -1,7 +1,8 @@
 export default {
-  name: "legoTestimonialSlider",
-  title: "LEGO: Testimonial Slider",
-  description: "Slider with user's feedback",
+  name: "blogPost",
+  title: "Blog Post",
+  description:
+    "Everything from crafts to recipes, press, product updates and news.",
   type: "document",
   preview: {
     select: {
@@ -12,11 +13,130 @@ export default {
     {
       name: "title",
       title: "Title",
+      validation: Rule => Rule.required(),
       type: "string"
     },
     {
-      name: "style",
-      title: "Style",
+      name: "slug",
+      title: "Slug",
+      validation: Rule => Rule.required(),
+      type: "slug",
+      options: {
+        source: "title"
+      }
+    },
+    {
+      name: "date",
+      title: "Post Date",
+      validation: Rule => Rule.required(),
+      type: "datetime"
+    },
+    {
+      name: "logo",
+      title: "Cover Image",
+      type: "image"
+    },
+    {
+      name: "postExcerpt",
+      title: "Teaser",
+      validation: Rule => Rule.required(),
+      type: "text"
+    },
+    {
+      name: "text",
+      title: "Content",
+      validation: Rule => Rule.required(),
+      type: "array",
+      of: [
+        {
+          type: "block"
+        },
+        {
+          type: "image"
+        }
+      ]
+    },
+    {
+      name: "postTextMedia",
+      title: "In-Post Stories",
+      type: "array",
+      of: [
+        {
+          type: "reference",
+          to: [
+            {
+              type: "blogTextAndMedia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: "categories",
+      title: "Categories",
+      validation: Rule => Rule.required(),
+      type: "array",
+      of: [
+        {
+          type: "reference",
+          to: [
+            {
+              type: "blogCategory"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: "tags",
+      title: "Tags",
+      type: "array",
+      of: [
+        {
+          type: "string",
+          options: {
+            layout: "tags"
+          }
+        }
+      ]
+    },
+    {
+      name: "contributors",
+      title: "Contributors",
+      type: "array",
+      of: [
+        {
+          type: "reference",
+          to: [
+            {
+              type: "contributor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: "footerCalloutTitle",
+      title: "About This Post Section - Title",
+      type: "string"
+    },
+    {
+      name: "footerCalloutText",
+      title: "About This Post Section - Text",
+      type: "array",
+      of: [
+        {
+          type: "block"
+        },
+        {
+          type: "image"
+        }
+      ]
+    },
+    {
+      name: "postShortText",
+      title: "Post Short Text",
+      hidden: true,
       type: "reference",
       to: [
         {
@@ -221,70 +341,6 @@ export default {
           type: "test1"
         }
       ]
-    },
-    {
-      name: "legOs",
-      title: "LEGOs",
-      validation: Rule => Rule.required(),
-      type: "array",
-      of: [
-        {
-          type: "reference",
-          to: [
-            {
-              type: "legoMarketingHero"
-            },
-            {
-              type: "legoTestimonial"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: "autoplaySpeed",
-      title: "Autoplay speed",
-      type: "number"
-    },
-    {
-      name: "autoplay",
-      title: "Autoplay",
-      validation: Rule => Rule.required(),
-      type: "boolean"
-    },
-    {
-      name: "dots",
-      title: "Dots",
-      type: "boolean"
-    },
-    {
-      name: "infinite",
-      title: "Infinite",
-      validation: Rule => Rule.required(),
-      type: "boolean"
-    },
-    {
-      name: "speed",
-      title: "Speed",
-      validation: Rule => Rule.required(),
-      type: "number"
-    },
-    {
-      name: "slidesToShow",
-      title: "Slides to show",
-      validation: Rule => Rule.required(),
-      type: "number"
-    },
-    {
-      name: "slidesToScroll",
-      title: "Slides to scroll",
-      type: "number"
-    },
-    {
-      name: "fade",
-      title: "Fade",
-      validation: Rule => Rule.required(),
-      type: "boolean"
     }
   ]
 };

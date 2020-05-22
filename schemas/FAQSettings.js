@@ -1,5 +1,5 @@
 export default {
-  name: '1gpcOO1K5wa4MqGoquWuOG',
+  name: 'fAQSettings',
   title: 'FAQ Settings',
   type: 'document',
   preview: {

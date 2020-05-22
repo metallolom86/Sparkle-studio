@@ -21,7 +21,7 @@ export default {
       type: 'reference',
       to: [
         {
-          type: '5GPHYPgQaQYouKOwM8Weus'
+          type: 'collection'
         }
       ]
     },

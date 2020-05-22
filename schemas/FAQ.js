@@ -1,5 +1,5 @@
 export default {
-  name: '27NqSErDgME0M6owKA6oe6',
+  name: 'fAQ',
   title: 'FAQ',
   description: 'Frequently Asked Question (and Answer)',
   type: 'document',
@@ -35,7 +35,7 @@ export default {
       type: 'reference',
       to: [
         {
-          type: '2X9njs7Hm0mUc8ocASEW0A'
+          type: 'fAQCategories'
         }
       ]
     }

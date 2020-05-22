@@ -30,22 +30,22 @@ export default {
           type: 'reference',
           to: [
             {
-              type: '2C4Vf04Sn6yM4iSKAEEIcW'
+              type: 'age'
             },
             {
-              type: '10gqnUyH7MY6aUAGwYMWqQ'
+              type: 'blogPost'
             },
             {
-              type: '3E6bdvlfmMi2M4gmKuOG2e'
+              type: 'characters'
             },
             {
-              type: '5GPHYPgQaQYouKOwM8Weus'
+              type: 'collection'
             },
             {
-              type: '42NU4G3ny02SUCEmMSamMS'
+              type: 'story'
             },
             {
-              type: '5Iq0WgjphSei2ywoG6QA4e'
+              type: 'topic'
             }
           ]
         }

@@ -20,58 +20,58 @@ export default {
       type: 'reference',
       to: [
         {
-          type: '2PqfXUJwE8qSYKuM0U6w8M'
+          type: 'products'
         },
         {
           type: 'sFzTZbSuM8coEwygeUYes'
         },
         {
-          type: '6XwpTaSiiI2Ak2Ww0oi6qa'
+          type: 'blogCategory'
         },
         {
-          type: '2C4Vf04Sn6yM4iSKAEEIcW'
+          type: 'age'
         },
         {
-          type: '5Iq0WgjphSei2ywoG6QA4e'
+          type: 'topic'
         },
         {
-          type: '4ouAGlpdUIO6YimUi4yy4c'
+          type: 'productCategories'
         },
         {
-          type: '5GPHYPgQaQYouKOwM8Weus'
+          type: 'collection'
         },
         {
-          type: '42NU4G3ny02SUCEmMSamMS'
+          type: 'story'
         },
         {
-          type: '3E6bdvlfmMi2M4gmKuOG2e'
+          type: 'characters'
         },
         {
-          type: '10gqnUyH7MY6aUAGwYMWqQ'
+          type: 'blogPost'
         },
         {
-          type: '6CN2bBuW2WQyaG4wwgwcwW'
+          type: 'contributor'
         },
         {
-          type: '4mhNr6LwSA0cw0suaiuACC'
+          type: 'season'
         },
         {
-          type: '2ACHCxca40sUgwmcYySOOk'
+          type: 'blogSettings'
         },
         {
-          type: '5k3cLJiPcWouiimsoiUeoE'
+          type: 'homeScreenFeatures'
         },
         {
-          type: '6AvOrquQaAqY0U4KmYaSWC'
+          type: 'storeSettings'
         },
         {
-          type: '6v4b8oMiROwOU8qWkKeUmg'
+          type: 'marketingHomepageSettings'
         },
         {
-          type: '41Vqqj5gJqgQ6sG2C2IUmO'
+          type: 'marketingBanner'
         },
         {
-          type: 'SwkS9yZoMCqKMEE4GC6KK'
+          type: 'appDownloadBanner'
         },
         {
           type: 'AtpxV01AFEKoaoGEeYSAo'
@@ -83,28 +83,28 @@ export default {
           type: 'AtoxSxEmre2K6o6Q0YGA8'
         },
         {
-          type: '4gwUzKU8XYi8mMoUayQKO6'
+          type: 'staff'
         },
         {
-          type: '27NqSErDgME0M6owKA6oe6'
+          type: 'fAQ'
         },
         {
-          type: '2X9njs7Hm0mUc8ocASEW0A'
+          type: 'fAQCategories'
         },
         {
-          type: '1gpcOO1K5wa4MqGoquWuOG'
+          type: 'fAQSettings'
         },
         {
-          type: '2TVbMFwStaGS2w0oQEU042'
+          type: 'contactPageSettings'
         },
         {
-          type: '1BItkEqpoUQcyWAocwGkoG'
+          type: 'mobileSettings'
         },
         {
-          type: '3cnHKbODwcgq4UYW4oWwaU'
+          type: 'textPageTemplate'
         },
         {
-          type: '3IItgDW8vuUSiW028IseiW'
+          type: 'giftSubscription'
         },
         {
           type: 'freeSubscriptions'
