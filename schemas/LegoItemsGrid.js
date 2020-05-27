@@ -1,5 +1,5 @@
 export default {
-  name: 'legoCollectionGrid',
+  name: 'legoItemsGrid',
   title: 'LEGO: Items Grid',
   type: 'document',
   preview: {

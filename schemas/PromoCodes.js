@@ -1,5 +1,5 @@
 export default {
-  name: 'discountCoupons',
+  name: 'promoCodes',
   title: 'Promo Codes',
   type: 'document',
   preview: {

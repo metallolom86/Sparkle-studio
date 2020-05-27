@@ -107,10 +107,10 @@ export default {
           type: "giftSubscription"
         },
         {
-          type: "freeSubscriptions"
+          type: "promoSubscriptions"
         },
         {
-          type: "discountCoupons"
+          type: "promoCodes"
         },
         {
           type: "seriesSettings"
@@ -146,7 +146,7 @@ export default {
           type: "legoFeaturedCollection"
         },
         {
-          type: "legoCollectionGrid"
+          type: "legoItemsGrid"
         },
         {
           type: "legoPage"
@@ -176,7 +176,7 @@ export default {
           type: "bitImagePanel"
         },
         {
-          type: "legoFlex"
+          type: "legoPanels"
         },
         {
           type: "legoSignup"
@@ -215,7 +215,7 @@ export default {
           type: "legoMarketingHeroSlider"
         },
         {
-          type: "cancelDialog"
+          type: "successCancelationDialog"
         },
         {
           type: "test1"

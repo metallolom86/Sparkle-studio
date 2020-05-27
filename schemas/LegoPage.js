@@ -56,7 +56,7 @@ export default {
               type: 'legoFreeItemsGrid'
             },
             {
-              type: 'legoCollectionGrid'
+              type: 'legoItemsGrid'
             },
             {
               type: 'legoMarketingContent'
@@ -71,7 +71,7 @@ export default {
               type: 'legoMarketingHeroSlider'
             },
             {
-              type: 'legoFlex'
+              type: 'legoPanels'
             },
             {
               type: 'legoPromoBanner'

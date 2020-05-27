@@ -29,8 +29,8 @@ import aContactPageSettings from "./ContactPageSettings";
 import aMobileSettings from "./MobileSettings";
 import aTextPageTemplate from "./TextPageTemplate";
 import aGiftSubscription from "./GiftSubscription";
-import aFreeSubscriptions from "./FreeSubscriptions";
-import aDiscountCoupons from "./DiscountCoupons";
+import aPromoSubscriptions from "./PromoSubscriptions";
+import aPromoCodes from "./PromoCodes";
 import aSeriesSettings from "./SeriesSettings";
 import aCollectionSettings from "./CollectionSettings";
 import aBlogTextAndMedia from "./BlogTextAndMedia";
@@ -42,7 +42,7 @@ import aMarketingHomepageHeroSlides from "./MarketingHomepageHeroSlides";
 import aFeaturedTestimonials from "./FeaturedTestimonials";
 import aHomepageSampleStories from "./HomepageSampleStories";
 import aLegoFeaturedCollection from "./LegoFeaturedCollection";
-import aLegoCollectionGrid from "./LegoCollectionGrid";
+import aLegoItemsGrid from "./LegoItemsGrid";
 import aLegoPage from "./LegoPage";
 import aMetadata from "./Metadata";
 import aLegoPromoBanner from "./LegoPromoBanner";
@@ -52,7 +52,7 @@ import aColor from "./Color";
 import aLegoMarketingHero from "./LegoMarketingHero";
 import aBitTextPanel from "./BitTextPanel";
 import aBitImagePanel from "./BitImagePanel";
-import aLegoFlex from "./LegoFlex";
+import aLegoPanels from "./LegoPanels";
 import aLegoSignup from "./LegoSignup";
 import aLegoMarketingContent from "./LegoMarketingContent";
 import aLegoSimpleHeader from "./LegoSimpleHeader";
@@ -65,7 +65,7 @@ import aLegoAppInfo from "./LegoAppInfo";
 import aLegoMarketingHeroFooter from "./LegoMarketingHeroFooter";
 import aAudioStoryItem from "./AudioStoryItem";
 import aLegoMarketingHeroSlider from "./LegoMarketingHeroSlider";
-import aCancelDialog from "./CancelDialog";
+import aSuccessCancelationDialog from "./SuccessCancelationDialog";
 import aTest1 from "./Test1";
 
 export default createSchema({
@@ -100,8 +100,8 @@ export default createSchema({
     aMobileSettings,
     aTextPageTemplate,
     aGiftSubscription,
-    aFreeSubscriptions,
-    aDiscountCoupons,
+    aPromoSubscriptions,
+    aPromoCodes,
     aSeriesSettings,
     aCollectionSettings,
     aBlogTextAndMedia,
@@ -113,7 +113,7 @@ export default createSchema({
     aFeaturedTestimonials,
     aHomepageSampleStories,
     aLegoFeaturedCollection,
-    aLegoCollectionGrid,
+    aLegoItemsGrid,
     aLegoPage,
     aMetadata,
     aLegoPromoBanner,
@@ -123,7 +123,7 @@ export default createSchema({
     aLegoMarketingHero,
     aBitTextPanel,
     aBitImagePanel,
-    aLegoFlex,
+    aLegoPanels,
     aLegoSignup,
     aLegoMarketingContent,
     aLegoSimpleHeader,
@@ -136,7 +136,7 @@ export default createSchema({
     aLegoMarketingHeroFooter,
     aAudioStoryItem,
     aLegoMarketingHeroSlider,
-    aCancelDialog,
+    aSuccessCancelationDialog,
     aTest1
   ])
 });
