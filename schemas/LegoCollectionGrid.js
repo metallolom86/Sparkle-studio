@@ -41,7 +41,7 @@ export default {
               type: 'collection'
             },
             {
-              type: 'sFzTZbSuM8coEwygeUYes'
+              type: 'series'
             },
             {
               type: 'story'

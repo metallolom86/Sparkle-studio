@@ -1,11 +1,11 @@
 {
   "root": true,
-  "project": {
-    "name": "Sparkle"
-  },
   "api": {
     "projectId": "yflfog0b",
     "dataset": "production"
+  },
+  "project": {
+    "name": "Sparkle"
   },
   "plugins": [
     "@sanity/base",

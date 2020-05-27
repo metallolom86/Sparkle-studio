@@ -23,7 +23,7 @@ export default {
           type: 'products'
         },
         {
-          type: 'sFzTZbSuM8coEwygeUYes'
+          type: 'series'
         },
         {
           type: 'blogCategory'
@@ -74,13 +74,13 @@ export default {
           type: 'appDownloadBanner'
         },
         {
-          type: 'AtpxV01AFEKoaoGEeYSAo'
+          type: 'featureBanner'
         },
         {
-          type: 'V1oMjOcBY4k84Yk4K6kiW'
+          type: 'trialBanner'
         },
         {
-          type: 'AtoxSxEmre2K6o6Q0YGA8'
+          type: 'aboutPageSettings'
         },
         {
           type: 'staff'

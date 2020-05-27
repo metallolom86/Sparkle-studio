@@ -1,5 +1,5 @@
 export default {
-  name: 'V1oMjOcBY4k84Yk4K6kiW',
+  name: 'trialBanner',
   title: 'Trial Banner',
   type: 'document',
   preview: {

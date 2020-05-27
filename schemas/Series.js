@@ -1,5 +1,5 @@
 export default {
-  name: "sFzTZbSuM8coEwygeUYes",
+  name: "series",
   title: "Series",
   type: "document",
   preview: {

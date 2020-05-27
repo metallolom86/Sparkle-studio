@@ -62,7 +62,7 @@ export default {
       type: "reference",
       to: [
         {
-          type: "sFzTZbSuM8coEwygeUYes"
+          type: "series"
         }
       ]
     }

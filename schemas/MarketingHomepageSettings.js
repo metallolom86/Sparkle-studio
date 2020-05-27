@@ -128,7 +128,7 @@ export default {
       type: "reference",
       to: [
         {
-          type: "AtpxV01AFEKoaoGEeYSAo"
+          type: "featureBanner"
         },
         {
           type: "marketingHomepageSettings"

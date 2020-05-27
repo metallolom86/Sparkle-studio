@@ -69,7 +69,7 @@ export default {
           type: 'reference',
           to: [
             {
-              type: 'sFzTZbSuM8coEwygeUYes'
+              type: 'series'
             }
           ]
         }
@@ -87,7 +87,7 @@ export default {
               type: 'collection'
             },
             {
-              type: 'sFzTZbSuM8coEwygeUYes'
+              type: 'series'
             },
             {
               type: 'topic'

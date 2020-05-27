@@ -1,7 +1,7 @@
 import createSchema from "part:@sanity/base/schema-creator";
 import schemaTypes from "all:part:@sanity/base/schema-type";
 import aProducts from "./Products";
-import aSFzTZbSuM8coEwygeUYes from "./SFzTZbSuM8coEwygeUYes";
+import aSeries from "./Series";
 import aBlogCategory from "./BlogCategory";
 import aAge from "./Age";
 import aTopic from "./Topic";
@@ -18,9 +18,9 @@ import aStoreSettings from "./StoreSettings";
 import aMarketingHomepageSettings from "./MarketingHomepageSettings";
 import aMarketingBanner from "./MarketingBanner";
 import aAppDownloadBanner from "./AppDownloadBanner";
-import aAtpxV01AFEKoaoGEeYSAo from "./AtpxV01AFEKoaoGEeYSAo";
-import aV1oMjOcBY4k84Yk4K6kiW from "./V1oMjOcBY4k84Yk4K6kiW";
-import aAtoxSxEmre2K6o6Q0YGA8 from "./AtoxSxEmre2K6o6Q0YGA8";
+import aFeatureBanner from "./FeatureBanner";
+import aTrialBanner from "./TrialBanner";
+import aAboutPageSettings from "./AboutPageSettings";
 import aStaff from "./Staff";
 import aFAQ from "./FAQ";
 import aFAQCategories from "./FAQCategories";
@@ -72,7 +72,7 @@ export default createSchema({
   name: "default",
   types: schemaTypes.concat([
     aProducts,
-    aSFzTZbSuM8coEwygeUYes,
+    aSeries,
     aBlogCategory,
     aAge,
     aTopic,
@@ -89,9 +89,9 @@ export default createSchema({
     aMarketingHomepageSettings,
     aMarketingBanner,
     aAppDownloadBanner,
-    aAtpxV01AFEKoaoGEeYSAo,
-    aV1oMjOcBY4k84Yk4K6kiW,
-    aAtoxSxEmre2K6o6Q0YGA8,
+    aFeatureBanner,
+    aTrialBanner,
+    aAboutPageSettings,
     aStaff,
     aFAQ,
     aFAQCategories,

@@ -1,5 +1,5 @@
 export default {
-  name: 'AtpxV01AFEKoaoGEeYSAo',
+  name: 'featureBanner',
   title: 'Feature Banner',
   type: 'document',
   preview: {

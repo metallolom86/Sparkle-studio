@@ -1,5 +1,5 @@
 export default {
-  name: 'AtoxSxEmre2K6o6Q0YGA8',
+  name: 'aboutPageSettings',
   title: 'About Page Settings',
   type: 'document',
   preview: {
@@ -78,7 +78,7 @@ export default {
       type: 'reference',
       to: [
         {
-          type: 'V1oMjOcBY4k84Yk4K6kiW'
+          type: 'trialBanner'
         }
       ]
     },
